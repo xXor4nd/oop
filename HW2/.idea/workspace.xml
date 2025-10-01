@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="293cb94b-32e9-4523-a2f9-6ca740c26ed9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Appearances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Appearances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CharGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Taboo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Taboo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TetrisGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TetrisGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppearancesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppearancesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CharGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PointTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TabooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TabooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TetrisGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TetrisGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CharGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CharGrid.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.StringCodeTest.testBlowup_BasicCases.executor": "Run",
+    "JUnit.CharGridTest.testCharArea1.executor": "Run",
+    "JUnit.CharGridTest.testCharArea2.executor": "Run",
+    "JUnit.CharGridTest.testCountPlus.executor": "Run",
     "JUnit.StringCodeTest.testBlowup_BasicCases.executor": "Run",
     "JUnit.StringCodeTest.testBlowup_DigitAtEnd.executor": "Run",
     "JUnit.StringCodeTest.testBlowup_DigitZero.executor": "Run",
@@ -70,6 +63,7 @@
     "JUnit.StringCodeTest.testMaxRun_NotSureWhyNeeded.executor": "Run",
     "JUnit.StringCodeTest.testMaxRun_SpecialCases.executor": "Run",
     "JUnit.StringCodeTest.testNoIntersect.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -87,22 +81,42 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringCodeTest.testLengthEqualToString">
-    <configuration name="StringCodeTest.testEdgeCaseLength1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CharGridTest.testCountPlus">
+    <configuration name="CharGridTest.testCharArea1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testEdgeCaseLength1" />
+      <option name="MAIN_CLASS_NAME" value="CharGridTest" />
+      <option name="METHOD_NAME" value="testCharArea1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodeTest.testIntersectExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CharGridTest.testCharArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CharGridTest" />
+      <option name="METHOD_NAME" value="testCharArea2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharGridTest.testCountPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CharGridTest" />
+      <option name="METHOD_NAME" value="testCountPlus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCodeTest.testEdgeCaseLength1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testIntersectExists" />
+      <option name="METHOD_NAME" value="testEdgeCaseLength1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,33 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodeTest.testLengthTooLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testLengthTooLarge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCodeTest.testNoIntersect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testNoIntersect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CharGridTest.testCountPlus" />
+        <item itemvalue="JUnit.CharGridTest.testCharArea2" />
+        <item itemvalue="JUnit.CharGridTest.testCharArea1" />
         <item itemvalue="JUnit.StringCodeTest.testLengthEqualToString" />
         <item itemvalue="JUnit.StringCodeTest.testEdgeCaseLength1" />
-        <item itemvalue="JUnit.StringCodeTest.testLengthTooLarge" />
-        <item itemvalue="JUnit.StringCodeTest.testNoIntersect" />
-        <item itemvalue="JUnit.StringCodeTest.testIntersectExists" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +159,8 @@
       <updated>1759201939066</updated>
       <workItem from="1759201940411" duration="26000" />
       <workItem from="1759228333890" duration="36000" />
-      <workItem from="1759294474482" duration="6274000" />
+      <workItem from="1759294474482" duration="9485000" />
+      <workItem from="1759315396523" duration="1604000" />
     </task>
     <servers />
   </component>
