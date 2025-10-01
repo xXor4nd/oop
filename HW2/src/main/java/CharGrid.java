@@ -5,7 +5,7 @@
 public class CharGrid {
     private char[][] grid;
 
-    public int countCharPerDirection(int row, int col, int dirRow, int dirCol, char ch) {
+    private int countCharPerDirection(int row, int col, int dirRow, int dirCol, char ch) {
         int len = 1;
         row += dirRow;
         col += dirCol;

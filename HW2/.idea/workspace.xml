@@ -7,7 +7,8 @@
     <list default="true" id="293cb94b-32e9-4523-a2f9-6ca740c26ed9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CharGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TetrisGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TetrisGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TetrisGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TetrisGridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CharGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CharGrid.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,9 @@
     "JUnit.StringCodeTest.testMaxRun_NotSureWhyNeeded.executor": "Run",
     "JUnit.StringCodeTest.testMaxRun_SpecialCases.executor": "Run",
     "JUnit.StringCodeTest.testNoIntersect.executor": "Run",
+    "JUnit.TetrisGridTest.testClear1.executor": "Run",
+    "JUnit.TetrisGridTest.testClearMultipleRows.executor": "Run",
+    "JUnit.TetrisGridTest.testNoFullRow.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -81,17 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CharGridTest.testCountPlus">
-    <configuration name="CharGridTest.testCharArea1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CharGridTest" />
-      <option name="METHOD_NAME" value="testCharArea1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TetrisGridTest.testClearMultipleRows">
     <configuration name="CharGridTest.testCharArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,21 +106,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodeTest.testEdgeCaseLength1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TetrisGridTest.testClear1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testEdgeCaseLength1" />
+      <option name="MAIN_CLASS_NAME" value="TetrisGridTest" />
+      <option name="METHOD_NAME" value="testClear1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodeTest.testLengthEqualToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TetrisGridTest.testClearMultipleRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCodeTest" />
-      <option name="METHOD_NAME" value="testLengthEqualToString" />
+      <option name="MAIN_CLASS_NAME" value="TetrisGridTest" />
+      <option name="METHOD_NAME" value="testClearMultipleRows" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetrisGridTest.testNoFullRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TetrisGridTest" />
+      <option name="METHOD_NAME" value="testNoFullRow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TetrisGridTest.testClearMultipleRows" />
+        <item itemvalue="JUnit.TetrisGridTest.testNoFullRow" />
+        <item itemvalue="JUnit.TetrisGridTest.testClear1" />
         <item itemvalue="JUnit.CharGridTest.testCountPlus" />
         <item itemvalue="JUnit.CharGridTest.testCharArea2" />
-        <item itemvalue="JUnit.CharGridTest.testCharArea1" />
-        <item itemvalue="JUnit.StringCodeTest.testLengthEqualToString" />
-        <item itemvalue="JUnit.StringCodeTest.testEdgeCaseLength1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,7 @@
       <workItem from="1759201940411" duration="26000" />
       <workItem from="1759228333890" duration="36000" />
       <workItem from="1759294474482" duration="9485000" />
-      <workItem from="1759315396523" duration="1604000" />
+      <workItem from="1759315396523" duration="6055000" />
     </task>
     <servers />
   </component>
